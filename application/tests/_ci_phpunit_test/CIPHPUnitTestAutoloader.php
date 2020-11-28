@@ -63,7 +63,7 @@ class CIPHPUnitTestAutoloader
 
 		$this->loadCIPHPUnitTestAliasClass($class);
 		$this->loadCIPHPUnitTestClass($class);
-		$this->loadApplicationClass($class);
+//		$this->loadApplicationClass($class);
 	}
 
 	protected function loadCIPHPUnitTestAliasClass($class)
